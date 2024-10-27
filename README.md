@@ -23,7 +23,7 @@ This is a clone project created solely for learning purposes. It is not intended
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/teci-ol-clone.git
+git clone https://github.com/makombengas/teci-ol-clone.git
 ```
 
 2. Install dependencies:
