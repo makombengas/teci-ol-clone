@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TECI_OL Website Clone
 
-## Getting Started
+This project is a clone of [TECI_OL](https://www.teciol.de/) from Stadt Oldenburg, created for educational purposes only. All rights for the original design and content belong to Stadt Oldenburg (City of Oldenburg).
 
-First, run the development server:
+![Project Screenshot](/public/images/teciol.png)
 
+## ⚠️ Disclaimer
+
+This is a clone project created solely for learning purposes. It is not intended for commercial use. The original website design and content belong to Stadt Oldenburg (TECI_OL). This is an unofficial project and is not affiliated with or endorsed by the City of Oldenburg.
+
+## 🛠️ Technologies Used
+
+- [Next.js](https://nextjs.org/) - React framework for production
+- [React](https://reactjs.org/) - JavaScript library for user interfaces
+- [Next-intl](https://next-intl-docs.vercel.app/) - Internationalization for Next.js
+- [React Icons](https://react-icons.github.io/react-icons/) - Popular icons for React projects
+- [React-Clsx](https://github.com/lukeed/clsx) - Utility for constructing className strings
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Tailwindcss-animated](https://github.com/autor/tailwindcss-animated) - Animation utilities for Tailwind CSS
+- SVG images from [SVG Repo](https://www.svgrepo.com/) - SVG Vector and Icons
+
+## 🚀 Getting Started
+
+1. Clone this repository:
+```bash
+git clone https://github.com/yourusername/teci-ol-clone.git
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📝 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+teci-ol-clone/
+├── components/
+├── pages/
+├── public/
+├── styles/
+├── locales/
+└── ...
+```
 
-## Learn More
+## 🎨 Features
 
-To learn more about Next.js, take a look at the following resources:
+- Responsive design matching TECI_OL's layout
+- Multi-language support (German/English/French)
+- Interactive UI components
+- Animated elements using Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📸 Screenshots
 
-## Deploy on Vercel
+![Feature 1](/public/images/oldenburg.png)
+![Feature 2](/public/images/place_screen.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔗 Credits
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Original website: [TECI_OL - Stadt Oldenburg](https://teci-ol.de/)
+- Icons from [React Icons](https://react-icons.github.io/react-icons/)
+- SVG illustrations from [SVG Repo](https://www.svgrepo.com/)
+
+## 📄 License
+
+This project is created for educational purposes only. All rights for the original design belong to Stadt Oldenburg (TECI_OL). This is an unofficial project and is not affiliated with the City of Oldenburg.
+
+## 🤝 Contributing
+
+This is a personal learning project and is not open for contributions. However, feel free to fork it for your own learning purposes.
+
+## 👨‍💻 Author
+
+- Bernard Ngassa
+- GitHub: [Bernard Ngassa](https://github.com/makombengas)
+
+---
+
+⭐️ If you found this educational resource helpful, please consider giving it a star!

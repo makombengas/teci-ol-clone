@@ -1,0 +1,413 @@
+{
+    "Home": { 
+        "hello": "Hello",
+        "welcome": "Welcome to my app"
+    },
+    "Manifest": {
+    "name": "next-intl example"
+  },
+  "LocaleLayout": {
+    "title": "next-intl example"
+  },
+  "LocaleSwitcher": {
+    "label": "EN",
+    "locale": "{locale, select, de {🇩🇪 German} en {🇺🇸 English} fr {🇫🇷 French} other {Unknown}}"
+  },
+  "Navbar": {
+    "nav": [
+      {
+        "id": 1,
+        "name": "we",
+        "path": "/we"
+      },
+      {
+        "id": 2,
+        "name": "you",
+        "path": "/you"
+      },
+      {
+        "id": 3,
+        "name": "oldenburg",
+        "path": "/oldenburg"
+      },
+      {
+        "id": 4,
+        "name": "current",
+        "path": "/current"
+      }
+    ]
+  },
+  "Carousel": {
+    "carousel": [
+      {
+        "id": 0,
+        "title": "You like",
+        "it": "IT",
+        "question": "?",
+        "secondTitle": "Oldenburg is ready for you!",
+        "subTitle": "",
+        "description": "",
+        "image": "/images/TECIOL_Headerbild.jpg",
+        "secondImage": "/images/TECIOL_Headerbild.jpg",
+        "bgColor": "#004B8B",
+        "path": "#oldenburg",
+        "button": {
+          "text": "Read more",
+          "link": "#current"
+        }
+      },
+      {
+        "id": 1,
+        "title": ">100",
+        "it": "",
+        "question": "",
+        "secondTitle": "",
+        "subTitle": "IT Employers",
+        "description": "and Research Institutions",
+        "image": "/images/Arbeitgeber.jpg",
+        "secondImage": "/images/network.svg",
+        "bgColor": "#004B8B",
+        "path": "#workers",
+        "button": {
+          "text": "Read more",
+          "link": "we"
+        }
+      },
+      {
+        "id": 2,
+        "title": "169.605",
+        "it": "",
+        "question": "",
+        "secondTitle": "",
+        "subTitle": "Inhabitants",
+        "description": "",
+        "image": "/images/Einwohnerinnen.jpg",
+        "secondImage": "/images/family.svg",
+        "bgColor": "#F4B0AC",
+        "path": "#people",
+        "button": {
+          "text": "Read more",
+          "link": "#you"
+        }
+      },
+      {
+        "id": 3,
+        "title": "2019",
+        "it": "",
+        "question": "",
+        "secondTitle": "",
+        "subTitle": "the most bike-friendly city in Germany",
+        "description": "",
+        "image": "/images/Einwohnerinnen.jpg",
+        "secondImage": "/images/bicycle.svg",
+        "bgColor": "#EA516C",
+        "path": "#bicycle",
+        "button": {
+          "text": "Read more",
+          "link": "#oldenburg"
+        }
+      },
+      {
+        "id": 4,
+        "title": "30",
+        "it": "",
+        "question": "",
+        "secondTitle": "",
+        "subTitle": "minutes from the North Sea",
+        "description": "",
+        "image": "/images/Nordsee.jpg",
+        "secondImage": "/images/sea.svg",
+        "bgColor": "#F0C76D",
+        "path": "#sea",
+        "button": {
+          "text": "Read more",
+          "link": "#oldenburg"
+        }
+      }
+    ]
+  },
+  "News": {
+    "title": "latest news",
+    "news": [
+    {
+      "id": 0,
+      "title": "Successful Foundation",
+      "subtitle": "TECI_OL acts as an association",
+      "secondTitle": "Unified Action: The 'IT Network TECI_OL' becomes an association – representatives of the founding members established this by signing the association's charter on Tuesday, December 20, 2022, at the Old Town Hall. During this occasion, the board of the association was also elected: Dr. Jörg Ritter, Chairman of the Board of BTC AG, became the 1st Chairman, and Prof. Dr. Sebastian Lehnhoff, Chairman of the Board of OFFIS e.V., is the 2nd Chairman. Jens Schumann, Managing Director of openknowledge GmbH, holds the position of Treasurer. In addition, Mayor Jürgen Krogmann, Sönke Vaihinger, Managing Director of VRG GmbH, and Jens Läkamp, Managing Director of the peak lab. GmbH & Co. KG, strengthen the board. Dr. Ritter looks forward to his new board position: “The focus of the IT network has always been the collaboration of all members, which we now aim to intensify as TECI_OL Association. Together, we want to raise awareness of the Oldenburg IT sector for professionals beyond our region and strengthen cooperation among the network’s members.” Roland Hentschel, Head of Regional Development at the City of Oldenburg, also looks forward to the opportunities that the association’s foundation offers: “With the City of Oldenburg's position on the board, we will continue to work towards strengthening Oldenburg as a business location and supporting the association’s common goals through our diverse contacts.”",
+      "thirdTitle": "Unified Action",
+      "thirdSubtitle": "The association's foundation replaces the cooperation agreement on which the members of the 'IT Network TECI_OL' had previously collaborated. The current members in the network, and thus the new association members, are: BISS GmbH, BTC AG, CEWE Stiftung & Co. KGaA, ise GmbH, KDO Service GmbH, Kisters AG, Lufthansa Industry Solutions, OFFIS – Institute for Computer Science e.V., openKnowledge GmbH, City of Oldenburg, the peak lab. GmbH & Co. KG, Varelmann BeratungsGmbH, VRG GmbH, and worldiety GmbH. Together, the association members pursue the overarching goals of making the IT sector in Northwest Germany future-proof and competitive, attracting more professionals from around the world to Oldenburg IT companies, and increasing the business success of IT companies and research institutions.",
+      "fourTitle": "TECI_OL – 'Technology crafted in Oldenburg'",
+      "fourSubtitle": "Strengthening international competitiveness and driving digital innovation to make Oldenburg an even more attractive IT location: with these core intentions, companies, research institutions, and the city joined together in 2019 under TECI_OL ('Technology crafted in Oldenburg') to form a network.",
+      "fiveTitle": "",
+      "fiveSubtitle": "",
+      "sixTitle": "",
+      "sixSubtitle": "",
+      "sevenTitle": "",
+      "sevenSubtitle": "",
+      "image": "/images/TECI_OL_Vereinsgruendung.jpg",
+      "secondImage": "",
+      "thirdImage": "",
+      "path": "/:id",
+      "bgColor": "#004B8B",
+       "button":"Read more"
+    },
+    {
+      "id": 1,
+      "title": "IT‘s a MATCH",
+      "subtitle": "Speed-Dating with potential IT employers",
+      "secondTitle": "In 10-minute conversations, 12 students exchanged ideas with 12 IT employers from Oldenburg. The discussions focused on possible collaboration, whether for an internship, a working student position, or practical supervision of a bachelor’s or master’s thesis. After 10 minutes, the egg timer rang, and the seats and conversation partners were rotated. The IT network TECI_OL organized the speed-dating event at Schlauen Haus and coordinated participating companies with the aim of retaining well-qualified young professionals from regional universities and showing young people good career opportunities. Mike Wilkes from open knowledge, who coordinated the project for TECI_OL, said: “Events like these already exist at some universities – including the University of Oldenburg. They are based on the dating format for singles looking for partners. However, this particular IT speed-dating event has never been held in Oldenburg before in this form.”",
+      "thirdTitle": "",
+      "thirdSubtitle": "Solveig Elias, from the Central Study and Career Counseling (ZSKB) at the University of Oldenburg, Department 3, coordinated the registration process for the event and later exchanged contact information in case of a match. “We deliberately refrained from providing company representatives with information about the students beforehand. We want the encounters to start unprejudiced and give everyone an equal chance to impress during the conversation,” emphasized Solveig Elias. She specifically invited students from the master's or higher semesters of bachelor's programs in computer science, business informatics, mathematics, neuroscience, and engineering physics at the University of Oldenburg. The 12 students eagerly changed places every 10 minutes and started a new conversation. Naturally, it was exhausting for all participants – including the company representatives – as concentration was required, but it was also all the more successful. The positive feedback from students ranged from “a great overview of IT employers in the region” to “a ray of hope in the dark jungle of job applications” and “a great opportunity to explore whether a career in IT is possible in a straightforward way.” At the end of the speed-dating event, both the students and the IT employers indicated which contacts they would like to deepen. Many connections were made – matches between students and IT companies – which will now be networked by the Central Study and Career Counseling at the university. The great success speaks for itself, making it clear that while this was the first, it certainly won’t be the last IT speed-dating event organized by the TECI_OL network.",
+      "fourTitle": "What is TECI_OL?",
+      "fourSubtitle": "The abbreviation TECI_OL stands for 'Technology crafted in Oldenburg.' It is an IT network that, since 2018, has brought together 15 players from business and research, with the support of the City of Oldenburg, to shape technological progress in Oldenburg.",
+      "fiveTitle": "Represented in the network are:",
+      "fiveSubtitle": "BISS GmbH, BTC AG, CEWE Stiftung & Co. KGaA, ise GmbH, KDO GmbH, Kisters AG, Lufthansa Industry Solutions, OFFIS – Institute for Computer Science, openKnowledge GmbH, City of Oldenburg, the peak lab GmbH & Co. KG, University of Oldenburg, Varelmann BeratungsGmbH, VRG Group, worldiety GmbH",
+      "sixTitle": "Editorial inquiries please contact:",
+      "sixSubtitle": "BISS GmbH, BTC AG, CEWE Stiftung & Co. KGaA, ise GmbH, KDO GmbH, Kisters AG, Lufthansa Industry Solutions, OFFIS – Institute for Computer Science, openKnowledge GmbH, City of Oldenburg, the peak lab GmbH & Co. KG, University of Oldenburg, Varelmann BeratungsGmbH, VRG Group, worldiety GmbH",
+      "sevenTitle": "Editorial inquiries please contact:",
+      "sevenSubtitle": "Britta Müller, britta.mueller@offis.de , Tel. 0179-4551063",
+      "image": "/images/TECI_OL_meet.jpeg",
+      "secondImage": "/images/TECI_OL_Speeddating.jpg",
+      "thirdImage": "/images/TECI_OL.jpg",
+      "path": "/:id",
+      "bgColor": "#004B8B",
+      "button": "Read more"
+    }
+  ]
+  },
+  "We":{
+    "we":{
+      "title": "We are where the top is:",
+      "secondTitle": "Technology crafted in Oldenburg",
+      "description": "As successful technology companies and renowned research institutions from Oldenburg, we have come together to show you the dynamism and innovative strength of the northwest. Each of us contributes to technological progress in our own way across many diverse digitalization projects. Together, we aim to continually develop ourselves, our surroundings, and your perspectives while shaping the digital future. Our IT companies and computer science research are as diverse as the society we live in. Find out what we, as network partners, have to offer you in detail:",
+      "image": "/images/TECIOL_Headerbild.jpg",
+      "button": "Learn more",
+      "link": "/:id",
+      "imagesArray": [
+        {
+          "id": 0,
+          "title": "AAMGNO",
+          "description": "Amagno GmbH is a German company that offers DMS/ECM software. It enables digital management of documents and business processes. The new Amagno.AI allows chat interaction with the ECM.",
+          "image": "/images/amagno.png",
+          "link": "https://www.amagno.de",
+          "button": "Amagno GmbH"
+        },
+        {
+          "id": 1,
+          "title": "BISS",
+          "description": "CRM for insurance and financial services, as BISS software solutions ultimately focus on people, clients, employees, and perhaps you?",
+          "image": "/images/Biss.jpg",
+          "link": "https://www.biss-net.com/",
+          "button": "BISS GmbH"
+        },
+        {
+          "id": 2,
+          "title": "BTC AG",
+          "description": "BTC is one of Germany's largest IT service providers. We are passionate not only about technology and digitalization but also about the people we work for and with.",
+          "image": "/images/BTC.jpg",
+          "link": "https://www.btc-ag.de/",
+          "button": "BTC AG"
+        },
+        {
+          "id": 3,
+          "title": "BTC EMBEDDED SYSTEMS",
+          "description": "We develop intelligent software testing solutions, enhancing road safety. Enthusiasm, team spirit, determination, as well as fun, reliability, and courage are our values.",
+          "image": "/images/BTC_ES.png",
+          "link": "https://www.btc-embedded.com",
+          "button": "BTC EMBEDDED SYSTEMS AG"
+        },
+        {
+          "id": 4,
+          "title": "CEWE",
+          "description": "As Europe’s largest photo finisher, we ensure daily that billions of photos, CEWE photo books, and photo gift items leave our facilities every year.",
+          "image": "/images/cewe.jpg",
+          "link": "https://www.cewe.de/",
+          "button": "CEWE Stiftung & Co. KGaA"
+        },
+        {
+          "id": 5,
+          "title": "ISE",
+          "description": "Since 1996, we have developed software, hardware, and our own products. Innovative and technically skilled, we are among the largest industrial suppliers in Europe for building automation.",
+          "image": "/images/ise.png",
+          "link": "https://www.ise.de/",
+          "button": "ISE GmbH"
+        },
+        {
+          "id": 6,
+          "title": "KDO",
+          "description": "We are digitalizing Germany! KDO stands for modern IT solutions and serves as an innovation and technology partner for municipalities.",
+          "image": "/images/KDO.png",
+          "link": "https://www.kdo.de/",
+          "button": "KDO"
+        },
+        {
+          "id": 7,
+          "title": "KISTERS",
+          "description": "KISTERS AG is a globally growing IT company, developing forward-looking resource management systems for the energy industry.",
+          "image": "/images/kisters.jpg",
+          "link": "https://www.kisters.de/",
+          "button": "KISTERS AG"
+        },
+        {
+          "id": 8,
+          "title": "LUFTHANSA INDUSTRY SOLUTIONS",
+          "description": "Lufthansa Industry Solutions is an IT consulting and systems integration service provider, supporting clients in digital transformation.",
+          "image": "/images/Lufthansa.jpg",
+          "link": "https://www.lufthansa-industry-solutions.com/",
+          "button": "LUFTHANSA INDUSTRY SOLUTIONS"
+        },
+        {
+          "id": 9,
+          "title": "OFFIS-INSTITUTE FOR COMPUTER SCIENCE",
+          "description": "Around 300 people from 30 nations work here to identify future-proof technologies. You can conduct applied research on today’s challenges with us.",
+          "image": "/images/OFFIS.jpg",
+          "link": "https://www.offis.de/",
+          "button": "OFFIS-INSTITUTE FOR COMPUTER SCIENCE"
+        },
+        {
+          "id": 10,
+          "title": "OPENKNOWLEDGE",
+          "description": "Our cross-functional teams develop enterprise software, web applications, and cloud solutions. Knowledge sharing is our company philosophy.",
+          "image": "/images/Open.jpg",
+          "link": "https://www.openknowledge.de/",
+          "button": "OPENKNOWLEDGE GMBH"
+        },
+        {
+          "id": 11,
+          "title": "THE PEAK LAB GmbH & Co. KG",
+          "description": "The Peak Lab is a software company for digital business. We transform complex requirements into simple, engaging solutions in the cloud, web, and mobile.",
+          "image": "/images/Peaklab.jpg",
+          "link": "https://www.thepeaklab.com/",
+          "button": "THE PEAK LAB GmbH & Co. KG"
+        },
+        {
+          "id": 12,
+          "title": "PUBLIC EXPERTS",
+          "description": "We shape the digital transformation of municipalities to offer better services to citizens, modernize administrative processes, and enhance transparency and civic engagement.",
+          "image": "/images/PublicExperts.png",
+          "link": "https://www.public-experts.de/",
+          "button": "PUBLIC EXPERTS GmbH"
+        },
+        {
+          "id": 13,
+          "title": "CITY OF OLDENBURG",
+          "description": "The City of Oldenburg is the economic, scientific, and cultural center of the Weser-Ems region, offering a perfect mix of modernity and tradition as a university town.",
+          "image": "/images/Stadt-Oldenburg.gif",
+          "link": "https://www.oldenburg.de",
+          "button": "ECONOMIC DEVELOPMENT CITY OF OLDENBURG"
+        },
+        {
+          "id": 14,
+          "title": "VARELMANN",
+          "description": "Consulting – Development – Support. For over 20 years, Varelmann has provided personalized consulting services for SAP customers, delivering optimal solutions and comprehensive support.",
+          "image": "/images/Varelmann.jpg",
+          "link": "https://www.varelmann.de/",
+          "button": "VARELMANN Consulting GmbH"
+        },
+        {
+          "id": 15,
+          "title": "VRG GROUP",
+          "description": "VRG offers tailored services and solutions for payroll and personnel management, social services, healthcare, and ECM and IT solutions.",
+          "image": "/images/VRG.jpg",
+          "link": "https://vrg.de/",
+          "button": "VRG Group"
+        },
+        {
+          "id": 16,
+          "title": "WDY",
+          "description": "Based in Oldenburg, worldiety specializes in consulting and developing custom software solutions. For over 10 years, worldiety has supported clients in their digital transformation, enhancing control and process efficiency through customized software solutions.",
+          "image": "/images/worldiety.png",
+          "link": "https://www.worldiety.de/",
+          "button": "worldiety GmbH"
+        }
+      ]
+    }
+    
+  },
+  "You": {
+    "you": {
+      "title": "You and Your Success Story",
+      "secondTitle": "with us in the Northwest",
+      "description": "Is independent work important to you? Preferably in a permanent position or in hybrid work environments for an innovative company where you develop creative solutions in the technology sector? Then we should definitely get to know each other! Software development, IT consulting, security, research, or web design are just a few keywords representing the diverse IT industry in Oldenburg! More than 100 IT and technology companies and various research institutions offer you opportunities for career development across different fields. In addition to many job opportunities, Oldenburg offers real quality of life in a small city near the North Sea for you and your family. Let's write your personal success story together here.",
+      "image": "/images/Place_To_Be.png",
+      "thirdTitle": "Develop Your Career in Oldenburg: Autonomy and Innovation in the IT Sector",
+      "shortDescription": "Oldenburg offers diverse career opportunities in the IT and technology sector, focusing on flexibility, autonomy, and high quality of life.",
+      "button": "Read more",
+      "content": [
+        {
+          "id": 1,
+          "heading": "The Diverse IT Industry in Oldenburg",
+          "paragraph": "Over recent years, Oldenburg has developed into a significant IT hub, now home to over 100 IT and technology companies. They offer you a wide range of career opportunities across various fields:",
+          "list": [
+            "Software Development: From classic web design to specialized fields like mobile app development and data-driven applications – the IT industry in Oldenburg is as versatile as its clients’ needs.",
+            "IT Consulting: Companies are increasingly seeking experts to support them in digital transformation.",
+            "IT Security: Cybersecurity is an essential part of the modern economy, and Oldenburg offers numerous opportunities in this field.",
+            "Research and Development: The city hosts many research institutions that work closely with companies on forward-looking projects."
+          ],
+          "closingSentence": "This diversity allows you to pursue your individual career path and apply your expertise in a dynamic environment."
+        },
+        {
+          "id": 2,
+          "heading": "Flexible Work Models for a Balanced Work-Life Experience",
+          "paragraph": "The modern working world is changing, and companies in Oldenburg are increasingly offering hybrid work models and flexible permanent positions, allowing you to shape your workday and balance work and private life."
+        },
+        {
+          "id": 3,
+          "heading": "Oldenburg as a Location: Between Career and Quality of Life",
+          "paragraph": "Oldenburg is not only a growing tech city but, with about 170,000 residents, also offers the balance between small-town charm and big-city opportunities. Proximity to the North Sea and a broad range of leisure and family activities make Oldenburg especially attractive."
+        },
+        {
+          "id": 4,
+          "heading": "Networking and Continuing Education – For Your Personal and Professional Growth",
+          "paragraph": "Oldenburg has a strong network in the IT industry. Events and meet-ups promote exchange among professionals, allowing you to build valuable connections and continuously advance your skills. The city offers numerous further training opportunities that help you stay professionally up-to-date and expand your knowledge."
+        },
+        {
+          "id": 5,
+          "heading": "Innovation and Sustainability as Guiding Principles",
+          "paragraph": "Companies in Oldenburg are increasingly focusing on innovative and sustainable approaches. Here, you can actively participate in shaping technologies and projects that are economically and socially relevant. The opportunity to make a sustainable impact provides not only professional fulfillment but also the feeling of contributing positively."
+        },
+        {
+          "id": 6,
+          "heading": "Your Career in Oldenburg – Ready for the Next Step?",
+          "paragraph": "If you're looking for an opportunity to grow professionally in an inspiring environment while leading a fulfilling private life, then Oldenburg is the right place for you. The city offers you the chance to bring your talents and ideas to the dynamic IT and technology sector while benefiting from the quality of life of a smaller city. Companies here value professionals who work independently and creatively and are ready to shape the future actively."
+        }
+      ]
+    }
+  },
+  "Oldenburg": {
+  "oldenburg":{
+    "title": "Hello in Oldenburg",
+    "secondTitle": "Oldenburg is ready for you",
+    "description": "Here you will be seen and valued. Oldenburg is vibrant and in motion. Find your balance between professional success and high individual quality of life: career, family, housing, leisure, and culture – Oldenburg offers you the opportunities of a big city on one hand, and on the other hand, the advantage of a smaller city that is often lost in metropolises.",
+    "video": "https://www.youtube.com/embed/X8xTA6e-A8w?si=pYo3wqhX-WT7sLRh",
+    "button": "Learn more"
+  }
+},
+"Footer": {
+    "footer": {
+      "title": "City of Oldenburg c/o Economic Development Industriestraße 1c 26121 Oldenburg Germany",
+      "contact": "Contact",
+      "menu": "Navigation Menu",
+      "legal": "Legal",
+      "secondTitle": "IT-Netzwerk TECI_OL e.V,",
+      "copyright": "Copyright © 2024. All rights reserved.",
+      "legalArray": [
+        {
+          "id": 1,
+          "title": "Imprint",
+          "link": "/impressum"
+        },
+        {
+          "id": 2,
+          "title": "Privacy Policy",
+          "link": "/privacy-policy"
+        },
+        {
+          "id": 3,
+          "title": "Cookie Settings",
+          "link": "/cookie-settings"
+        }
+      ]
+    }
+  }
+}

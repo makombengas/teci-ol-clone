@@ -1,0 +1,416 @@
+{
+  "Home": {
+    "hello": "Hallo",
+    "welcome": "Willkommen auf meiner app"
+  },
+  "Manifest": {
+    "description": "",
+    "name": ""
+  },
+  "LocaleLayout": {
+    "title": "next-intl Beispiel"
+  },
+ "LocaleSwitcher": {
+    "label": "DE",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 Englisch} fr {🇫🇷 Französisch} other {Unbekannt}}"
+  },
+  "Navbar": {
+    "nav": [
+    {
+      "id": 1,
+      "name": "wir",
+      "path": "/we"
+    },
+    {
+      "id": 2,
+      "name": "du",
+      "path": "/you"
+    },
+    {
+      "id": 3,
+      "name": "oldenburg",
+      "path": "/oldenburg"
+    },
+    {
+      "id": 4,
+      "name": "aktuelles",
+      "path": "/current"
+    }
+  ]
+  },
+  "Carousel":{
+    "carousel": [
+    {
+      "id": 0,
+      "title": "Gefällt Ihnen",
+      "it": "IT",
+      "question": "?",
+      "secondTitle": "Oldenburg ist bereit für Sie!",
+      "subTitle": "",
+      "description": "",
+      "image": "/images/TECIOL_Headerbild.jpg",
+      "secondImage": "/images/recycle.svg",
+      "bgColor": "#004B8B",
+      "path": "#oldenburg",
+      "button": {
+        "text": "Mehr erfahren",
+        "link": "#aktuelles"
+      }
+    },
+    {
+      "id": 1,
+      "title": ">100",
+      "it": "",
+      "question": "",
+      "secondTitle": "",
+      "subTitle": "IT-Arbeitgeber",
+      "description": "und Forschungseinrichtungen",
+      "image": "/images/Arbeitgeber.jpg",
+      "secondImage": "/images/network.svg",
+      "bgColor": "#004B8B",
+      "path": "#workers",
+      "button": {
+        "text": "Mehr erfahren",
+        "link": "we"
+      }
+    },
+    {
+      "id": 2,
+      "title": "169.605",
+      "it": "",
+      "question": "",
+      "secondTitle": "",
+      "subTitle": "Einwohner",
+      "description": "",
+      "image": "/images/Einwohnerinnen.jpg",
+      "secondImage": "/images/family.svg",
+      "bgColor": "#F4B0AC",
+      "path": "#people",
+      "button": {
+        "text": "Mehr erfahren",
+        "link": "#du"
+      }
+    },
+    {
+      "id": 3,
+      "title": "2019",
+      "it": "",
+      "question": "",
+      "secondTitle": "",
+      "subTitle": "die fahrradfreundlichste Stadt Deutschlands",
+      "description": "",
+      "image": "/images/Einwohnerinnen.jpg",
+      "secondImage": "/images/bicycle.svg",
+      "bgColor": "#EA516C",
+      "path": "#bicycle",
+      "button": {
+        "text": "Mehr erfahren",
+        "link": "#oldenburg"
+      }
+    },
+    {
+      "id": 4,
+      "title": "30",
+      "it": "",
+      "question": "",
+      "secondTitle": "",
+      "subTitle": "Minuten zur Nordsee",
+      "description": "",
+      "image": "/images/Nordsee.jpg",
+      "secondImage": "/images/sea.svg",
+      "bgColor": "#F0C76D",
+      "path": "#sea",
+      "button": {
+        "text": "Mehr erfahren",
+        "link": "#oldenburg"
+      }
+    }
+  ]
+  },
+  "News":{
+    "title": "aktuelles",
+    "news": [
+    {
+      "id": 0,
+      "title": "Erfolgreiche Gründung",
+      "subtitle": "TECI_OL agiert als Verein",
+      "secondTitle": "Vereintes Agieren: Das „IT Netzwerk TECI_OL“ wird ein Verein – dies haben Vertreterinnen und Vertreter der Gründungsmitglieder mit der Unterzeichnung der Vereinssatzung am Dienstag, 20. Dezember 2022, im Alten Rathaus festgelegt. Bei dieser Gelegenheit wurde auch der Vereinsvorstand gewählt: 1. Vorsitzender wurde Dr. Jörg Ritter, Vorstandsvorsitzender BTC AG, und 2. Vorsitzender ist Prof Dr. Sebastian Lehnhoff, Vorstandsvorsitzender OFFIS e.V. Das Amt des Kassenwarts bekleidet Jens Schumann, Geschäftsführer openknowledge GmbH. Zudem verstärken Oberbürgermeister Jürgen Krogmann, Sönke Vaihinger, Geschäftsführer VRG GmbH, und Jens Läkamp, Geschäftsführer the peak lab. GmbH & Co. KG, den Vorstand. Dr. Ritter freut sich auf seine neue Vorstandsposition: „Im Zentrum des IT-Netzwerks stand seit jeher die Zusammenarbeit aller Mitglieder, die wir künftig als Verein TECI_OL intensivieren wollen. Gemeinsam möchten wir die Oldenburger IT-Branche über unsere Region hinweg für Fachkräfte bekannter machen und die Zusammenarbeit zwischen den Mitgliedern des Netzwerks stärken.“ Auch Roland Hentschel, Fachdienstleiter Regionalentwicklung bei der Stadt Oldenburg, blickt den Möglichkeiten, die sich durch die Vereinsgründung ergeben, zuversichtlich entgegen: „Durch die Stellung der Stadt Oldenburg im Vereinsvorstand werden wir weiterhin daran mitarbeiten, den Wirtschaftsstandort Oldenburg zu stärken und die gemeinsamen Ziele des Vereins durch unsere vielseitigen Kontakte bestmöglich unterstützen.“",
+      "thirdTitle": "Vereintes Handeln",
+      "thirdSubtitle": "Die Vereinsgründung löst die Kooperationsvereinbarung, auf deren Basis die Mitglieder des „IT Netzwerk TECI_OL“ bisher zusammenarbeiteten, ab. Die aktuellen Mitglieder im Netzwerk und damit die neuen Vereinsmitglieder sind: BISS GmbH, BTC AG, CEWE Stiftung & Co. KGaA, ise GmbH, KDO Service GmbH, Kisters AG, Lufthansa Industry Solutions, OFFIS – Institut für Informatik e.V., openKnowledge GmbH, Stadt Oldenburg, the peak lab. GmbH & Co. KG, Varelmann BeratungsGmbH, VRG GmbH und worldiety GmbH. Gemeinsam verfolgen die Vereinsmitglieder die übergeordneten Ziele, die IT-Branche im Nordwesten zukunfts- und wettbewerbsfähig zu gestalten sowie mehr Fachkräfte aus aller Welt für Oldenburger IT-Unternehmen zu gewinnen und die Geschäftserfolge von IT-Unternehmen und Forschungseinrichtungen zu steigern.",
+      "fourTitle": "TECI_OL – „Technology crafted in Oldenburg“",
+      "fourSubtitle": "Die internationale Wettbewerbsfähigkeit stärken und die digitale Innovation vorantreiben, um damit den IT-Standort Oldenburg noch attraktiver zu gestalten: Mit diesen Kernintentionen haben sich Unternehmen, Forschungseinrichtungen und die Stadt im Jahr 2019 unter TECI_OL („Technology crafted in Oldenburg“) zu einem Netzwerk zusammengeschlossen.",
+      "fiveTitle": "",
+      "fiveSubtitle": "",
+      "sixTitle": "",
+      "sixSubtitle": "",
+      "sevenTitle": "",
+      "sevenSubtitle": "",
+      "image": "/images/TECI_OL_Vereinsgruendung.jpg",
+      "secondImage": "",
+      "thirdImage": "",
+      "path": "/:id",
+      "bgColor": "#004B8B",
+       "button":"Mehr erfahren"
+    },
+    {
+      "id": 1,
+      "title": "Es ist ein Match",
+      "subtitle": "Speed-Dating mit potentiellen IT-Arbeitgebern",
+      "secondTitle": "In je 10 Minuten Gesprächszeit tauschten sich 12 Studierende mit 12 IT-Arbeitgebern aus Oldenburg aus. Die Gespräche drehten sich um eine mögliche Zusammenarbeit, sei es für ein Praxissemester, für eine Tätigkeit als Werkstudent*in oder die praxisnahe Begleitung einer Bachelor- oder Masterarbeit. Nach 10 Minuten lief die Eieruhr ab und die Plätze und Gesprächspartner*innen wurden durchgetauscht. Das IT-Netzwerk TECI_OL organisierte das Speed-Dating im Schlauen Haus und koordinierte die teilnehmen Unternehmen, mit dem Ziel, langfristig gut qualifizierte Nachwuchskräfte aus den Hochschulen in der Region zu halten und jungen Menschen gute berufliche Chancen aufzuzeigen. Mike Wilkes, von der Firma open knowledge, der das Projekt für TECI_OL koordinierte, dazu: „Solche Aktionen gibt es bereits an einigen Hochschulen – auch an der Universität Oldenburg. Sie sind angelehnt an das Dating-Format für Singles auf Partnersuche. Dieses spezielle IT-Speed-Dating hat jedoch in dieser Form in Oldenburg noch nicht stattgefunden.“",
+      "thirdTitle": "",
+      "thirdSubtitle": "Solveig Elias, von der Zentrale Studien-und Karriereberatung (ZSKB) der Universität Oldenburg, Dezernat 3, koordinierte das Anmeldeverfahren zum Event, sowie den späteren Austausch der Kontaktdaten bei einem Match nach dem Event. „Wir haben bewusst darauf verzichtet, den Firmenvertretern vorab Informationen der Studierenden zur Verfügung zu stellen. Wir möchten, dass die Begegnungen unvoreingenommen beginnen und jeder die gleiche Chance hat, im Gespräch von sich zu überzeugen.“ betonte Solveig Elias. Gezielt angesprochen und eingeladen wurden von ihr Studierende der Master- bzw. höheren Semester der Bachelor- Studiengänge Informatik, Wirtschaftsinformatik, Mathematik, Neuroscience und Engineering Physics der Universität Oldenburg. Die 12 Studierenden wechselten während des Nachmittags munter im 10-Minuten-Takt die Plätze und starteten in ein neues Gespräch. Natürlich war es für alle Teilnehmenden – auch auf Seite der Unternehmensvertreter*innen – anstrengend, Konzentration war gefordert. Jedoch dafür auch umso erfolgreicher. „Von einem tollen Überblick über die IT-Arbeitgeber in der Region“ hin zu einem „Lichtblick in der Dunkelheit des Bewerbungsdschungels“ und der „tollen Möglichkeit unkompliziert auszuloten, ob man in der IT Fuß fassen kann“, reichten die positiven Rückmeldungen der Studierenden. Zum Ende des Speed-Datings konnten sowohl die Studierenden als auch die IT-Arbeitgeber mitteilen, welche Kontakte sie gerne intensivieren würden. Zustande gekommen sind viele Herzen auf beiden Seiten – also Matches zwischen Studierenden und IT-Unternehmen – die nun von der Zentrale Studien- und Karriereberatung der Universität entsprechend vernetzt werden. Der große Erfolg spricht für sich, so dass es zwar das erste, aber sicherlich nicht das letzte IT-Speed-Datings des TECI_OL Netzwerkes gewesen sein wird.",
+      "fourTitle": "Wer oder was ist TECI_OL?",
+      "fourSubtitle": "Unter der Kurzform TECI_OL verbirgt sich „Technology crafted in Oldenburg“. Ein IT-Netzwerk, zu dem sich seit 2018 zwischenzeitlich 15 Akteure aus Wirtschaft und Forschung, mit Unterstützung der Stadt Oldenburg, zusammengeschlossen haben, die den technologischen Fortschritt in Oldenburg mitgestalten.",
+      "fiveTitle": "Im Netzwerk vertreten sind:",
+      "fiveSubtitle": "BISS GmbH, BTC AG, CEWE Stiftung & Co. KGaA, ise GmbH, KDO GmbH, Kisters AG, Lufthansa Industry Solutions, OFFIS – Institut für Informatik, openKnowledge GmbH, Stadt Oldenburg, the peak lab GmbH & Co. KG, Universität Oldenburg, Varelmann BeratungsGmbH, VRG Gruppe, worldiety GmbH",
+      "sixTitle": "Redaktionelle Rückfragen bitte an:",
+      "sixSubtitle": "BISS GmbH, BTC AG, CEWE Stiftung & Co. KGaA, ise GmbH, KDO GmbH, Kisters AG, Lufthansa Industry Solutions, OFFIS – Institut für Informatik, openKnowledge GmbH, Stadt Oldenburg, the peak lab GmbH & Co. KG, Universität Oldenburg, Varelmann BeratungsGmbH, VRG Gruppe, worldiety GmbH",
+      "sevenTitle": "Redaktionelle Rückfragen bitte an:",
+      "sevenSubtitle": "Britta Müller, britta.mueller@offis.de , Tel. 0179-4551063",
+      "image": "/images/TECI_OL_meet.jpeg",
+      "secondImage": "/images/TECI_OL_Speeddating.jpg",
+      "thirdImage": "/images/TECI_OL.jpg",
+      "path": "/:id",
+      "bgColor": "#004B8B",
+      "button":"Mehr erfahren"
+    }
+  ]
+  } ,
+  "We":{
+    "we":{
+      "title": "Wir sind da, wo oben ist:",
+      "secondTitle": "Technology crafted in Oldenburg",
+      "description": "Als erfolgreiche Technologieunternehmen und renommierte Forschungseinrichtungen aus Oldenburg, haben wir uns zusammengeschlossen um dir zu zeigen, wie viel Dynamik und Innovationskraft im Nordwesten des Landes steckt. Jede/r von uns gestaltet den technologischen Fortschritt auf seine/ihre Weise in vielen unterschiedlichen Digitalisierungsprojekten. Gemeinsam haben wir den Anspruch, uns, unser Umfeld und deine Perspektiven konsequent weiterzuentwickeln und die digitale Zukunft zu gestalten. Unsere IT-Unternehmen und die Informatikforschung sind so bunt und vielfältig wie die Gesellschaft, in der wir leben. Finde heraus, was wir als Netzwerkpartner im Detail für dich zu bieten haben:",
+      "image": "/images/TECIOL_Headerbild.jpg",
+      "button": "Mehr erfahren",
+      "link": "/:id",
+      "imagesArray": [
+        {
+          "id": 0,
+          "title": "AAMGNO",
+          "description": "Die Amagno GmbH ist ein deutsches Unternehmen, das eine DMS/ECM Software bietet. Es ermöglicht die digitale Verwaltung von Dokumenten und Geschäftsprozessen. Die neue Amagno.AI erlaubt den Chat mit dem ECM.",
+          "image": "/images/amagno.png",
+          "link": "https://www.amagno.de",
+          "button": "Amagno GmbH"
+        },
+        {
+          "id": 1,
+          "title": "BISS",
+          "description": "CRM für Versicherungen und Finanzdienstleister, denn am Ende geht es bei BISS-Softwarelösungen um Menschen, Kunden, Mitarbeiter und vielleicht um Sie?",
+          "image": "/images/Biss.jpg",
+          "link": "https://www.biss-net.com/",
+          "button": "BISS GmbH"
+        },
+        {
+          "id": 2,
+          "title": "BTC AG",
+          "description": "BTC ist einer der größten IT-Dienstleister Deutschlands. Wir begeistern uns neben Technik und Digitalisierung vor allem für die Menschen, für die und mit denen wir arbeiten.",
+          "image": "/images/BTC.jpg",
+          "link": "https://www.btc-ag.de/",
+          "button": "BTC AG"
+        },
+        {
+          "id": 3,
+          "title": "BTC EMBEDDDED SYSTEMS",
+          "description": "Wir entwickeln intelligente Software-Testlösungen und sorgen damit für mehr Sicherheit im Straßenverkehr. Begeisterung, Teamgeist, Zielstrebigkeit, sowie Spaß, Verlässlichkeit und Mut sind unsere Werte.",
+          "image": "/images/BTC_ES.png",
+          "link": "https://www.btc-embedded.com/",
+          "button": "BTC EMBEDDED SYSTEMS AG"
+        },
+        {
+          "id": 4,
+          "title": "CEWE",
+          "description": "Als Europas größter Fotofinisher sorgen wir mit Modernität & Innovation täglich dafür, dass jährlich Milliarden Fotos, CEWE FOTOBÜCHER und Fotogeschenkartikel unseren Standort verlassen.",
+          "image": "/images/cewe.jpg",
+          "link": "https://www.cewe.de/",
+          "button": "CEWE Stiftung & Co. KGaA"
+        },
+        {
+          "id": 5,
+          "title": "ISE",
+          "description": "Seit 1996 entwickeln wir Soft- und Hardware sowie eigene Produkte. Innovativ und technisch versiert zählen wir innerhalb Europas im Bereich der Gebäudeautomatisierung zu den größten Industriezulieferern.",
+          "image": "/images/ise.png",
+          "link": "https://www.ise.de/",
+          "button": "ISE GmbH"
+        },
+        {
+          "id": 6,
+          "title": "KDO",
+          "description": "Wir digitalisieren Deutschland! Die KDO steht für moderne IT-Lösungen und agiert als Innovations- und Technologiepartner für Kommunen.",
+          "image": "/images/KDO.png",
+          "link": "https://www.kdo.de/",
+          "button": "KDO"
+        },
+        {
+          "id": 7,
+          "title": "KISTERS",
+          "description": "Die KISTERS AG ist ein global wachsendes IT-Unternehmen und entwickelt u. a. zukunftsweisende Ressourcenmanagement-Systeme für die Energiewirtschaft.",
+          "image": "/images/kisters.jpg",
+          "link": "https://www.kisters.de/",
+          "button": "KISTERS AG"
+        },
+        {
+          "id": 8,
+          "title": "LUFTHANSA INDUSTRY SOLUTIONS",
+          "description": "Lufthansa Industry Solutions ist ein Dienstleistungsunternehmen für IT-Beratung und Systemintegration und unterstützt ihre Kunden bei der digitalen Transformation.",
+          "image": "/images/Lufthansa.jpg",
+          "link": "https://www.lufthansa-industry-solutions.com/",
+          "button": "LUFTHANSA INDUSTRY SOLUTIONS"
+        },
+        {
+          "id": 9,
+          "title": "OFFIS-INSTITUTE FÜR INFORMATIK",
+          "description": "Rund 300 Menschen aus 30 Nationen machen es sich bei uns zur Aufgabe, zukunftsfähige Technologien zu identifizieren. Bei uns kannst Du anwendungsnah an den Herausforderungen unserer Zeit forschen.",
+          "image": "/images/OFFIS.jpg",
+          "link": "https://www.offis.de/",
+          "button": "OFFIS-INSTITUTE FÜR INFORMATIK"
+        },
+        {
+          "id": 10,
+          "title": "OPENKNOWLEDGE",
+          "description": "Unsere cross-funktionalen Teams entwickeln Unternehmenssoftware, Webanwendungen und Cloud-Lösungen. Wissen teilen ist unsere Firmenphilosophie.",
+          "image": "/images/Open.jpg",
+          "link": "https://www.openknowledge.de/",
+          "button": "OPENKNOWLEDGE GMBH"
+        },
+        {
+          "id": 11,
+          "title": "THE PEAK LAB GmbH & Co. KG",
+          "description": "the peak lab ist Softwareunternehmen für digitales Business. Wir machen aus komplexen Anforderungen einfache Lösungen, die begeistern. In der Cloud, im Web und Mobile.",
+          "image": "/images/Peaklab.jpg",
+          "link": "https://www.thepeaklab.com/",
+          "button": "THE PEAK LAB GmbH & Co. KG"
+        },
+        {
+          "id": 12,
+          "title": "PUBLIC EXPERTS",
+          "description": "Wir gestalten die digitale Transformation von Kommunen, um bessere Dienstleistungen für Bürger anzubieten, Verwaltungsprozesse zu modernisieren und Transparenz sowie Bürgerbeteiligung zu stärken.",
+          "image": "/images/PublicExperts.png",
+          "link": "https://www.public-experts.de/",
+          "button": "PUBLIC EXPERTS GmbH"
+        },
+        {
+          "id": 13,
+          "title": "STADT OLDENBURG",
+          "description": "Die Stadt Oldenburg ist der wirtschaftliche, wissenschaftliche & kulturelle Mittelpunkt der Region Weser-Ems und überzeugt als Universitätsstadt mit einer perfekten Mischung aus Moderne und Tradition.",
+          "image": "/images/Stadt-Oldenburg.gif",
+          "link": "https://www.oldenburg.de",
+          "button": "WIRTSCHAFTSFÖRDERUNG STADT OLDENBURG"
+        },
+        {
+          "id": 14,
+          "title": "VARELMANN",
+          "description": "Beratung – Entwicklung – Support. Varelmann erbringt seit über 20 Jahren individuelle Beratungsdienstleistungen für SAP-Kunden. Wir finden optimale Lösungen für unsere Kunden und bieten umfassende Unterstützung im SAP-Umfeld.",
+          "image": "/images/Varelmann.jpg",
+          "link": "https://www.varelmann.de/",
+          "button": "VARELMANN BeratungsGmbH"
+        },
+        {
+          "id": 15,
+          "title": "VRG GRUPPE",
+          "description": "Die VRG steht für passgenaue Services & Lösungen rund um Personalabrechnung und Personalmanagement, Sozialwirtschaft und Gesundheitswesen sowie ECM und IT-Lösungen.",
+          "image": "/images/VRG.jpg",
+          "link": "https://vrg.de/",
+          "button": "VRG Gruppe"
+        },
+        {
+          "id": 16,
+          "title": "WDY",
+          "description": "Als Oldenburger-IT-Dienstleister hat sich worldiety auf die Beratung sowie Entwicklung von individuellen Softwarelösungen spezialisiert. Seit mehr als 10 Jahren unterstützt worldiety Kunden auf ihrem Weg in die digitale Transformation und sorgt dafür, dass sich durch individuelle Softwarelösungen die Steuerungs- sowie Prozesseffizienz in den Unternehmen erhöht.",
+          "image": "/images/worldiety.png",
+          "link": "https://www.worldiety.de/",
+          "button": "worldiety GmbH"
+        }
+      ]
+    }
+    
+  },
+  "You":{
+    "you": {
+      "title": "Du und Deine Erfolgsstory-",
+      "secondTitle": "bei uns im Nordwesten",
+      "description": "Dir ist selbstbestimmtes Arbeiten wichtig? Am liebsten in Festanstellung oder in hybriden Arbeitsumgebungen für ein innovatives Unternehmen, bei dem du kreative Lösungen im Technologiebereich entwickelst? Dann sollten wir uns unbedingt kennenlernen! Software-Entwicklung, IT-Consulting, Sicherheit, Forschung oder Webdesign sind nur ein paar Schlagworte für die vielfältige IT-Branche Oldenburgs! Mehr als 100 IT- und Technologieunternehmen und vielfältige Forschungseinrichtungen bieten dir in unterschiedlichsten Bereichen deinen ganz eigenen Karriereausbau. Neben vielen Jobperspektiven punktet Oldenburg für dich und deine Familie mit echter Lebensqualität einer kleinen Großstadt in Nordseenähe. Lass uns hier gemeinsam deine persönliche Erfolgsstory schreiben.",
+      "image": "/images/Place_To_Be.png",
+      "thirdTitle": "Entwickle deine Karriere in Oldenburg: Selbstbestimmung und Innovation in der IT-Branche",
+      "shortDescription": "Oldenburg bietet vielfältige Karrieremöglichkeiten in der IT und Technologiebranche mit Fokus auf Flexibilität, Selbstbestimmung und hoher Lebensqualität.",
+      "button": "Mehr lesen",
+      "content": [
+        {
+          "id": 1,
+          "heading": "Die vielfältige IT-Branche in Oldenburg",
+          "paragraph": "Oldenburg hat sich in den letzten Jahren zu einem bedeutenden IT-Standort entwickelt und beherbergt mittlerweile über 100 IT- und Technologieunternehmen. Diese bieten dir eine breite Palette an beruflichen Möglichkeiten in unterschiedlichsten Bereichen:",
+          "list": [
+            "Software-Entwicklung: Vom klassischen Webdesign bis hin zu Spezialgebieten wie mobile App-Entwicklung und datenbasierte Anwendungen – die IT-Branche Oldenburgs ist so vielseitig wie die Bedürfnisse ihrer Kunden.",
+            "IT-Consulting: Unternehmen suchen zunehmend nach Experten, die sie bei der digitalen Transformation unterstützen.",
+            "IT-Sicherheit: Cybersicherheit ist ein wesentlicher Bestandteil der modernen Wirtschaft, und Oldenburg bietet zahlreiche Möglichkeiten, in diesem Bereich tätig zu werden.",
+            "Forschung und Entwicklung: Die Stadt ist Heimat vieler Forschungseinrichtungen, die in enger Kooperation mit Unternehmen zukunftsweisende Projekte realisieren."
+          ],
+          "closingSentence": "Diese Vielfalt erlaubt es dir, deinen individuellen Karriereweg zu verfolgen und dein Fachwissen in einem dynamischen Umfeld anzuwenden."
+        },
+        {
+          "id": 2,
+          "heading": "Flexible Arbeitsmodelle für eine ausgeglichene Work-Life-Balance",
+          "paragraph": "Die moderne Arbeitswelt verändert sich, und Unternehmen in Oldenburg bieten zunehmend hybride Arbeitsmodelle und flexible Festanstellungen an. So kannst du deinen Arbeitsalltag gestalten und Beruf und Privatleben in Einklang bringen."
+        },
+        {
+          "id": 3,
+          "heading": "Oldenburg als Standort: Zwischen Karriere und Lebensqualität",
+          "paragraph": "Oldenburg ist nicht nur eine wachsende Technologiestadt, sondern bietet mit etwa 170.000 Einwohnern auch die Balance zwischen dem Charme einer Kleinstadt und den Möglichkeiten einer Großstadt. Die Nähe zur Nordsee und das breite Angebot an Freizeit- und Familienaktivitäten machen Oldenburg besonders attraktiv."
+        },
+        {
+          "id": 4,
+          "heading": "Networking und Weiterbildung – für deine persönliche und berufliche Entwicklung",
+          "paragraph": "Oldenburg bietet eine starke Vernetzung in der IT-Branche. Veranstaltungen und Meet-ups fördern den Austausch zwischen Fachkräften und ermöglichen es dir, wertvolle Kontakte zu knüpfen und dich kontinuierlich weiterzubilden. Die Stadt bietet dir eine Vielzahl an Weiterbildungsmöglichkeiten, die dich beruflich voranbringen und dir helfen, dein Wissen auf dem neuesten Stand zu halten."
+        },
+        {
+          "id": 5,
+          "heading": "Innovation und Nachhaltigkeit als Wegweiser",
+          "paragraph": "Unternehmen in Oldenburg setzen verstärkt auf innovative und nachhaltige Ansätze, die zukunftsweisend sind. Hier kannst du aktiv daran teilnehmen, Technologien und Projekte mitzugestalten, die sowohl wirtschaftlich als auch gesellschaftlich relevant sind. Die Chance, einen nachhaltigen Beitrag zu leisten, bietet dir nicht nur berufliche Erfüllung, sondern auch das Gefühl, etwas Positives zu bewirken."
+        },
+        {
+          "id": 6,
+          "heading": "Deine Karriere in Oldenburg – bereit für den nächsten Schritt?",
+          "paragraph": "Wenn du nach einer Möglichkeit suchst, in einem inspirierenden Umfeld beruflich zu wachsen und gleichzeitig ein erfülltes Privatleben zu führen, dann ist Oldenburg der richtige Standort für dich. Die Stadt bietet dir die Möglichkeit, deine Talente und Ideen in der dynamischen IT- und Technologiebranche einzubringen und gleichzeitig von der Lebensqualität einer kleineren Großstadt zu profitieren. Die Unternehmen hier schätzen Fachkräfte, die selbstständig und kreativ arbeiten und bereit sind, die Zukunft aktiv mitzugestalten."
+        }
+      ]
+    }
+    
+  },
+  "Oldenburg": {
+    "oldenburg":{
+      "title": "Moin in Oldenburg",
+      "secondTitle": "Oldenburg ist bereit für dich",
+      "description":"Hier wirst du gesehen und wertgeschätzt. Oldenburg pulsiert und ist in Bewegung. Finde deine Balance zwischen beruflichen Erfolgschancen und einer hohen individuellen Lebensqualität: Beruf, Familie, Wohnraum, Freizeit und Kultur – Oldenburg bietet dir auf der einen Seite die Möglichkeiten einer Großstadt und auf der anderen Seite den Vorteil jener Übersicht, die in den Metropolen verloren geht.",
+      "video": "https://www.youtube.com/embed/X8xTA6e-A8w?si=pYo3wqhX-WT7sLRh",
+      "button": "Mehr erfahren"
+
+    }
+  },
+  "Footer": {
+    "footer": {
+      "title": "Stadt Oldenburg c/o Wirtschaftsförderung Industriestraße 1c 26121 Oldenburg Deutschland",
+      "contact": "Kontakt",
+      "menu": "Menü Navigation",
+      "legal": "Rechtliche Hinweise",
+      "secondTitle": "IT-Netzwerk TECI_OL e.V,",
+      "copyright": "Copyright © 2024. Alle Rechte vorbehalten.",
+      "legalArray": [
+        {
+          "id": 1,
+          "title": "Impressum",
+          "link": "/impressum"
+        },
+        {
+          "id": 2,
+          "title": "Privacy Policy",
+          "link": "/privacy-policy"
+        },
+        {
+          "id": 3,
+          "title": "Cookie Settings",
+          "link": "/cookie-settings"
+        }
+      ]
+    }
+  }
+}

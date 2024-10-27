@@ -1,0 +1,414 @@
+{
+  "Home": {
+    "hello": "Bonjour",
+    "welcome": "Bienvenue sur mon app"
+  },
+  "Manifest": {
+    "name": "Exemple next-intl"
+},
+"LocaleLayout": {
+    "title": "next-intl example"
+  },
+  "LocaleSwitcher": {
+    "label": "FR",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} fr {🇫🇷 Français} other {Inconnu}}"
+  },
+  "Navbar": {
+    "nav": [
+      {
+        "id": 1,
+        "name": "nous",
+        "path": "/we"
+      },
+      {
+        "id": 2,
+        "name": "toi",
+        "path": "/you"
+      },
+      {
+        "id": 3,
+        "name": "oldenburg",
+        "path": "/oldenburg"
+      },
+      {
+        "id": 4,
+        "name": "actualités",
+        "path": "/current"
+      }
+    ]
+  },
+ "Carousel": {
+    "carousel": [
+    {
+      "id": 0,
+      "title": "Vous aimez",
+      "it": "IT",
+      "question": "?",
+      "secondTitle": "Oldenburg est prêt pour vous !",
+      "subTitle": "",
+      "description": "",
+      "image": "/images/TECIOL_Headerbild.jpg",
+      "secondImage": "/images/TECI_OL_Speeddating.jpg",
+      "bgColor": "#004B8B",
+      "path": "#oldenburg",
+      "button": {
+        "text": "En savoir plus",
+        "link": "#actualités"
+      }
+    },
+    {
+      "id": 1,
+      "title": ">100",
+      "it": "",
+      "question": "",
+      "secondTitle": "",
+      "subTitle": "Employeurs IT",
+      "description": "et établissements de recherche",
+      "image": "/images/Arbeitgeber.jpg",
+      "secondImage": "/images/network.svg",
+      "bgColor": "#004B8B",
+      "path": "#workers",
+      "button": {
+        "text": "En savoir plus",
+        "link": "we"
+      }
+    },
+    {
+      "id": 2,
+      "title": "169.605",
+      "it": "",
+      "question": "",
+      "secondTitle": "",
+      "subTitle": "Habitants",
+      "description": "",
+      "image": "/images/Einwohnerinnen.jpg",
+      "secondImage": "/images/family.svg",
+      "bgColor": "#F4B0AC",
+      "path": "#people",
+      "button": {
+        "text": "En savoir plus",
+        "link": "#toi"
+      }
+    },
+    {
+      "id": 3,
+      "title": "2019",
+      "it": "",
+      "question": "",
+      "secondTitle": "",
+      "subTitle": "la ville la plus cyclable d'Allemagne",
+      "description": "",
+      "image": "/images/Einwohnerinnen.jpg",
+      "secondImage": "/images/bicycle.svg",
+      "bgColor": "#EA516C",
+      "path": "#bicycle",
+      "button": {
+        "text": "En savoir plus",
+        "link": "#oldenburg"
+      }
+    },
+    {
+      "id": 4,
+      "title": "30",
+      "it": "",
+      "question": "",
+      "secondTitle": "",
+      "subTitle": "minutes de la mer du Nord",
+      "description": "",
+      "image": "/images/Nordsee.jpg",
+      "secondImage": "/images/sea.svg",
+      "bgColor": "#F0C76D",
+      "path": "#sea",
+      "button": {
+        "text": "En savoir plus",
+        "link": "#oldenburg"
+      }
+    }
+  ]
+  },
+  "News": {
+    "title": "actualités",
+    "news": [
+    {
+      "id": 0,
+      "title": "Fondation Réussie",
+      "subtitle": "TECI_OL agit en tant qu'association",
+      "secondTitle": "Action unie : Le 'Réseau IT TECI_OL' devient une association – les représentants des membres fondateurs ont officialisé cela en signant les statuts de l'association mardi 20 décembre 2022 à l'Hôtel de Ville. À cette occasion, le conseil de l'association a également été élu : Dr. Jörg Ritter, président de BTC AG, est devenu le 1er Président, et Prof. Dr. Sebastian Lehnhoff, président d'OFFIS e.V., est le 2e Président. Jens Schumann, directeur général d’openknowledge GmbH, occupe le poste de trésorier. En outre, le maire Jürgen Krogmann, Sönke Vaihinger, directeur de VRG GmbH, et Jens Läkamp, directeur de the peak lab. GmbH & Co. KG, renforcent le conseil. Dr. Ritter se réjouit de son nouveau rôle : « La collaboration de tous les membres a toujours été au centre du réseau IT, que nous souhaitons désormais intensifier en tant qu'association TECI_OL. Ensemble, nous voulons faire connaître le secteur IT d'Oldenburg au-delà de notre région et renforcer la coopération entre les membres du réseau. » Roland Hentschel, directeur du développement régional à la ville d'Oldenburg, se réjouit également des opportunités offertes par la fondation de l'association : « Avec la ville d'Oldenburg au sein du conseil, nous continuerons de travailler pour renforcer Oldenburg en tant que pôle économique et soutenir au mieux les objectifs communs de l'association grâce à nos divers contacts. »",
+      "thirdTitle": "Action unie",
+      "thirdSubtitle": "La fondation de l'association remplace l'accord de coopération sur lequel les membres du 'Réseau IT TECI_OL' collaboraient précédemment. Les membres actuels du réseau et donc les nouveaux membres de l'association sont : BISS GmbH, BTC AG, CEWE Stiftung & Co. KGaA, ise GmbH, KDO Service GmbH, Kisters AG, Lufthansa Industry Solutions, OFFIS – Institut d'informatique e.V., openKnowledge GmbH, la ville d'Oldenburg, the peak lab. GmbH & Co. KG, Varelmann BeratungsGmbH, VRG GmbH et worldiety GmbH. Ensemble, les membres de l'association poursuivent des objectifs visant à rendre le secteur IT dans le Nord-Ouest durable et compétitif, à attirer davantage de professionnels du monde entier vers les entreprises IT d'Oldenburg, et à accroître le succès commercial des entreprises IT et des institutions de recherche.",
+      "fourTitle": "TECI_OL – 'Technologie conçue à Oldenburg'",
+      "fourSubtitle": "Renforcer la compétitivité internationale et promouvoir l'innovation numérique pour rendre le secteur IT d'Oldenburg encore plus attractif : avec ces intentions principales, des entreprises, institutions de recherche et la ville se sont réunies en 2019 sous TECI_OL ('Technologie conçue à Oldenburg') pour former un réseau.",
+      "fiveTitle": "",
+      "fiveSubtitle": "",
+      "sixTitle": "",
+      "sixSubtitle": "",
+      "sevenTitle": "",
+      "sevenSubtitle": "",
+      "image": "/images/TECI_OL_Vereinsgruendung.jpg",
+      "secondImage": "",
+      "thirdImage": "",
+      "path": "/:id",
+      "bgColor": "#004B8B",
+      "button": "En savoir plus"
+    },
+    {
+      "id": 1,
+      "title": "C'est un match",
+      "subtitle": "Speed-Dating avec des employeurs IT potentiels",
+      "secondTitle": "En séances de 10 minutes, 12 étudiants ont échangé avec 12 employeurs IT d'Oldenburg. Les discussions portaient sur une éventuelle collaboration, que ce soit pour un stage, un poste en tant qu’étudiant-travailleur, ou la supervision pratique d’un mémoire de licence ou de master. Après 10 minutes, le minuteur sonnait, et les places et partenaires de conversation changeaient. Le réseau IT TECI_OL a organisé le speed-dating à Schlauen Haus et coordonné les entreprises participantes dans le but de retenir les jeunes talents qualifiés des universités régionales et de montrer aux jeunes de bonnes opportunités de carrière. Mike Wilkes, de la société open knowledge, qui a coordonné le projet pour TECI_OL, a déclaré : « De telles actions existent déjà dans certaines universités, y compris à l’Université d'Oldenburg. Elles s'inspirent du format de rencontres pour célibataires en quête de partenaires. Cependant, ce speed-dating IT spécifique n'avait jamais eu lieu à Oldenburg sous cette forme. »",
+      "thirdTitle": "",
+      "thirdSubtitle": "Solveig Elias, du Service Central d'Orientation et de Carrière (ZSKB) de l'Université d'Oldenburg, Département 3, a coordonné la procédure d'inscription à l'événement, ainsi que l'échange ultérieur de coordonnées en cas de match. « Nous avons délibérément choisi de ne pas fournir aux représentants des entreprises d’informations sur les étudiants à l'avance. Nous voulons que les rencontres commencent sans préjugés et que chacun ait la même chance de se démarquer dans la conversation, » a souligné Solveig Elias. Elle a spécifiquement invité des étudiants de master ou des semestres avancés des licences en informatique, informatique de gestion, mathématiques, neurosciences et physique de l’ingénierie de l’Université d'Oldenburg. Les 12 étudiants changeaient de place toutes les 10 minutes pour démarrer une nouvelle conversation. Naturellement, c'était épuisant pour tous les participants, y compris les représentants d’entreprises – car la concentration était requise, mais cela s’est avéré très réussi. Les retours positifs des étudiants allaient d'« un excellent aperçu des employeurs IT de la région » à « une lumière dans l'obscurité de la jungle des candidatures » et « une belle opportunité de découvrir facilement si l'on peut faire carrière dans l’IT ». À la fin du speed-dating, les étudiants et les employeurs IT ont pu indiquer les contacts qu'ils souhaitaient approfondir. De nombreux liens ont été établis – des correspondances entre étudiants et entreprises IT – qui seront maintenant mises en réseau par le Service Central d'Orientation et de Carrière de l’université. Le grand succès en dit long, montrant que bien que ce soit le premier, ce ne sera certainement pas le dernier speed-dating IT organisé par le réseau TECI_OL.",
+      "fourTitle": "Qui est TECI_OL ?",
+      "fourSubtitle": "L'abréviation TECI_OL signifie 'Technologie conçue à Oldenburg'. Un réseau IT, auquel 15 acteurs du monde des affaires et de la recherche, soutenus par la ville d'Oldenburg, se sont regroupés depuis 2018 pour façonner le progrès technologique à Oldenburg.",
+      "fiveTitle": "Sont représentés dans le réseau :",
+      "fiveSubtitle": "BISS GmbH, BTC AG, CEWE Stiftung & Co. KGaA, ise GmbH, KDO GmbH, Kisters AG, Lufthansa Industry Solutions, OFFIS – Institut d'informatique, openKnowledge GmbH, ville d'Oldenburg, the peak lab GmbH & Co. KG, Université d'Oldenburg, Varelmann BeratungsGmbH, Groupe VRG, worldiety GmbH",
+      "sixTitle": "Pour toute question rédactionnelle, veuillez contacter :",
+      "sixSubtitle": "BISS GmbH, BTC AG, CEWE Stiftung & Co. KGaA, ise GmbH, KDO GmbH, Kisters AG, Lufthansa Industry Solutions, OFFIS – Institut d'informatique, openKnowledge GmbH, ville d'Oldenburg, the peak lab GmbH & Co. KG, Université d'Oldenburg, Varelmann BeratungsGmbH, Groupe VRG, worldiety GmbH",
+      "sevenTitle": "Pour toute question rédactionnelle, veuillez contacter :",
+      "sevenSubtitle": "Britta Müller, britta.mueller@offis.de , Tel. 0179-4551063",
+      "image": "/images/TECI_OL_meet.jpeg",
+      "secondImage": "/images/TECI_OL_Speeddating.jpg",
+      "thirdImage": "/images/TECI_OL.jpg",
+      "path": "/:id",
+      "bgColor": "#004B8B",
+      "button": "En savoir plus"
+    }
+  ]
+  },
+  "We":{
+    "we":{
+      "title": "Nous sommes là où est le sommet :",
+      "secondTitle": "Technologie conçue à Oldenbourg",
+      "description": "En tant qu'entreprises technologiques prospères et institutions de recherche renommées d'Oldenbourg, nous nous sommes regroupés pour te montrer l'ampleur de la dynamique et de l'innovation dans le nord-ouest du pays. Chacun(e) de nous contribue au progrès technologique à sa manière, dans de nombreux projets de digitalisation. Ensemble, nous avons pour ambition de nous améliorer, d'améliorer notre environnement et tes perspectives, tout en façonnant l'avenir numérique. Nos entreprises IT et la recherche en informatique sont aussi diverses que la société dans laquelle nous vivons. Découvre ce que nous avons à t'offrir en tant que partenaires du réseau :",
+      "image": "/images/TECIOL_Headerbild.jpg",
+      "button": "En savoir plus",
+      "link": "/:id",
+      "imagesArray": [
+        {
+          "id": 0,
+          "title": "AAMGNO",
+          "description": "Amagno GmbH est une entreprise allemande offrant un logiciel de gestion documentaire (DMS/ECM). Elle permet la gestion numérique de documents et de processus métier. Le nouvel Amagno.AI permet un chat avec le système ECM.",
+          "image": "/images/amagno.png",
+          "link": "https://www.amagno.de",
+          "button": "Amagno GmbH"
+        },
+        {
+          "id": 1,
+          "title": "BISS",
+          "description": "CRM pour les assurances et les services financiers, car en fin de compte, les solutions logicielles BISS concernent les gens, les clients, les employés, et peut-être vous ?",
+          "image": "/images/Biss.jpg",
+          "link": "https://www.biss-net.com/",
+          "button": "BISS GmbH"
+        },
+        {
+          "id": 2,
+          "title": "BTC AG",
+          "description": "BTC est l'un des plus grands prestataires de services informatiques d'Allemagne. Nous nous passionnons pour la technologie et la digitalisation, mais surtout pour les personnes avec et pour qui nous travaillons.",
+          "image": "/images/BTC.jpg",
+          "link": "https://www.btc-ag.de/",
+          "button": "BTC AG"
+        },
+        {
+          "id": 3,
+          "title": "BTC EMBEDDED SYSTEMS",
+          "description": "Nous développons des solutions de test logiciel intelligentes pour améliorer la sécurité routière. Enthousiasme, esprit d'équipe, persévérance, ainsi que plaisir, fiabilité et courage sont nos valeurs.",
+          "image": "/images/BTC_ES.png",
+          "link": "https://www.btc-embedded.com",
+          "button": "BTC EMBEDDED SYSTEMS AG"
+        },
+        {
+          "id": 4,
+          "title": "CEWE",
+          "description": "En tant que plus grand laboratoire photo d'Europe, nous assurons quotidiennement la production de milliards de photos, de livres photo CEWE et d'articles photo-cadeaux.",
+          "image": "/images/cewe.jpg",
+          "link": "https://www.cewe.de/",
+          "button": "CEWE Stiftung & Co. KGaA"
+        },
+        {
+          "id": 5,
+          "title": "ISE",
+          "description": "Depuis 1996, nous développons des logiciels et du matériel, ainsi que nos propres produits. Innovants et techniquement qualifiés, nous sommes l'un des plus grands fournisseurs industriels en Europe dans le domaine de l'automatisation des bâtiments.",
+          "image": "/images/ise.png",
+          "link": "https://www.ise.de/",
+          "button": "ISE GmbH"
+        },
+        {
+          "id": 6,
+          "title": "KDO",
+          "description": "Nous digitalisons l'Allemagne ! KDO est partenaire d'innovation et de technologie pour les communes, offrant des solutions IT modernes.",
+          "image": "/images/KDO.png",
+          "link": "https://www.kdo.de/",
+          "button": "KDO"
+        },
+        {
+          "id": 7,
+          "title": "KISTERS",
+          "description": "KISTERS AG est une entreprise IT en croissance mondiale, développant des systèmes de gestion des ressources pour le secteur de l'énergie.",
+          "image": "/images/kisters.jpg",
+          "link": "https://www.kisters.de/",
+          "button": "KISTERS AG"
+        },
+        {
+          "id": 8,
+          "title": "LUFTHANSA INDUSTRY SOLUTIONS",
+          "description": "Lufthansa Industry Solutions est une société de conseil en IT et d'intégration de systèmes, accompagnant ses clients dans la transformation numérique.",
+          "image": "/images/Lufthansa.jpg",
+          "link": "https://www.lufthansa-industry-solutions.com/",
+          "button": "LUFTHANSA INDUSTRY SOLUTIONS"
+        },
+        {
+          "id": 9,
+          "title": "OFFIS-INSTITUT D'INFORMATIQUE",
+          "description": "Environ 300 personnes de 30 nations travaillent chez nous pour identifier les technologies d'avenir. Tu peux y faire des recherches appliquées sur les défis de notre époque.",
+          "image": "/images/OFFIS.jpg",
+          "link": "https://www.offis.de/",
+          "button": "OFFIS-INSTITUT D'INFORMATIQUE"
+        },
+        {
+          "id": 10,
+          "title": "OPENKNOWLEDGE",
+          "description": "Nos équipes pluridisciplinaires développent des logiciels d'entreprise, des applications web et des solutions cloud. Partager le savoir est notre philosophie d'entreprise.",
+          "image": "/images/Open.jpg",
+          "link": "https://www.openknowledge.de/",
+          "button": "OPENKNOWLEDGE GMBH"
+        },
+        {
+          "id": 11,
+          "title": "THE PEAK LAB GmbH & Co. KG",
+          "description": "the peak lab est une société de développement de logiciels pour les entreprises digitales. Nous simplifions des exigences complexes en solutions intuitives, dans le cloud, sur le web et mobile.",
+          "image": "/images/Peaklab.jpg",
+          "link": "https://www.thepeaklab.com/",
+          "button": "THE PEAK LAB GmbH & Co. KG"
+        },
+        {
+          "id": 12,
+          "title": "PUBLIC EXPERTS",
+          "description": "Nous façonnons la transformation numérique des communes pour offrir de meilleurs services aux citoyens, moderniser les processus administratifs et renforcer la transparence et la participation citoyenne.",
+          "image": "/images/PublicExperts.png",
+          "link": "https://www.public-experts.de/",
+          "button": "PUBLIC EXPERTS GmbH"
+        },
+        {
+          "id": 13,
+          "title": "VILLE D'OLDENBOURG",
+          "description": "La ville d'Oldenbourg est le centre économique, scientifique et culturel de la région Weser-Ems, une ville universitaire alliant modernité et tradition.",
+          "image": "/images/Stadt-Oldenburg.gif",
+          "link": "https://www.oldenburg.de",
+          "button": "DÉVELOPPEMENT ÉCONOMIQUE VILLE D'OLDENBOURG"
+        },
+        {
+          "id": 14,
+          "title": "VARELMANN",
+          "description": "Conseil – Développement – Support. Depuis plus de 20 ans, Varelmann offre des services de conseil personnalisés pour les clients SAP, avec des solutions optimales et un support complet.",
+          "image": "/images/Varelmann.jpg",
+          "link": "https://www.varelmann.de/",
+          "button": "VARELMANN BeratungsGmbH"
+        },
+        {
+          "id": 15,
+          "title": "VRG GRUPPE",
+          "description": "VRG offre des services et solutions personnalisés pour la gestion de la paie, le management des ressources humaines, le secteur social et la santé, ainsi que des solutions ECM et IT.",
+          "image": "/images/VRG.jpg",
+          "link": "https://vrg.de/",
+          "button": "VRG Gruppe"
+        },
+        {
+          "id": 16,
+          "title": "WDY",
+          "description": "En tant que prestataire IT basé à Oldenbourg, worldiety est spécialisé dans le conseil et le développement de solutions logicielles personnalisées. Depuis plus de 10 ans, worldiety accompagne les clients dans leur transformation numérique, augmentant l'efficacité des processus et du pilotage grâce à des solutions logicielles adaptées.",
+          "image": "/images/worldiety.png",
+          "link": "https://www.worldiety.de/",
+          "button": "worldiety GmbH"
+        }
+      ]
+    }
+       
+  },
+  "You": {
+    "you": {
+      "title": "Vous et votre histoire de réussite",
+      "secondTitle": "avec nous dans le Nord-Ouest",
+      "description": "Le travail autonome est-il important pour vous ? Idéalement en CDI ou dans un environnement de travail hybride pour une entreprise innovante où vous développez des solutions créatives dans le secteur technologique ? Alors, faisons connaissance ! Développement de logiciels, conseil en informatique, sécurité, recherche ou design web ne sont que quelques mots-clés représentant le secteur informatique diversifié d’Oldenbourg ! Plus de 100 entreprises de technologie et de recherche vous offrent des possibilités de développement de carrière dans divers domaines. Outre de nombreuses perspectives d’emploi, Oldenbourg offre une véritable qualité de vie dans une petite ville près de la mer du Nord pour vous et votre famille. Écrivons ensemble votre histoire de réussite personnelle.",
+      "image": "/images/Place_To_Be.png",
+      "thirdTitle": "Développez votre carrière à Oldenbourg : Autonomie et innovation dans le secteur IT",
+      "shortDescription": "Oldenbourg propose des opportunités de carrière variées dans le secteur de l’informatique et de la technologie, axées sur la flexibilité, l’autonomie et une haute qualité de vie.",
+      "button": "En savoir plus",
+      "content": [
+        {
+          "id": 1,
+          "heading": "Le secteur IT diversifié d’Oldenbourg",
+          "paragraph": "Au cours des dernières années, Oldenbourg est devenue un centre IT important, abritant désormais plus de 100 entreprises de technologie et d’informatique. Celles-ci vous offrent un large éventail d’opportunités professionnelles dans divers domaines :",
+          "list": [
+            "Développement de logiciels : du design web classique aux domaines spécialisés comme le développement d'applications mobiles et les applications basées sur les données – le secteur IT d’Oldenbourg est aussi varié que les besoins de ses clients.",
+            "Conseil en informatique : les entreprises recherchent de plus en plus d’experts pour les accompagner dans leur transformation numérique.",
+            "Sécurité informatique : la cybersécurité est une composante essentielle de l’économie moderne, et Oldenbourg offre de nombreuses possibilités dans ce domaine.",
+            "Recherche et développement : la ville accueille de nombreux instituts de recherche qui travaillent en étroite collaboration avec les entreprises sur des projets innovants."
+          ],
+          "closingSentence": "Cette diversité vous permet de suivre votre propre chemin de carrière et d’appliquer votre expertise dans un environnement dynamique."
+        },
+        {
+          "id": 2,
+          "heading": "Modèles de travail flexibles pour un équilibre travail-vie personnelle",
+          "paragraph": "Le monde du travail moderne évolue, et les entreprises d’Oldenbourg proposent de plus en plus de modèles de travail hybrides et de CDI flexibles, vous permettant de structurer votre journée de travail et d’équilibrer vie professionnelle et vie privée."
+        },
+        {
+          "id": 3,
+          "heading": "Oldenbourg comme lieu : Entre carrière et qualité de vie",
+          "paragraph": "Oldenbourg n’est pas seulement une ville technologique en croissance, mais avec environ 170 000 habitants, elle offre également un équilibre entre le charme d’une petite ville et les opportunités d’une grande ville. La proximité de la mer du Nord et un large éventail d’activités de loisirs et pour la famille rendent Oldenbourg particulièrement attractive."
+        },
+        {
+          "id": 4,
+          "heading": "Réseautage et formation continue – Pour votre développement personnel et professionnel",
+          "paragraph": "Oldenbourg dispose d’un réseau solide dans le secteur IT. Des événements et des rencontres favorisent les échanges entre professionnels, vous permettant de créer des contacts précieux et de progresser continuellement dans vos compétences. La ville propose de nombreuses opportunités de formation continue pour vous aider à avancer professionnellement et à rester à jour dans vos connaissances."
+        },
+        {
+          "id": 5,
+          "heading": "Innovation et durabilité comme principes directeurs",
+          "paragraph": "Les entreprises d’Oldenbourg se concentrent de plus en plus sur des approches innovantes et durables. Ici, vous pouvez participer activement à façonner des technologies et des projets d’importance économique et sociale. La possibilité de contribuer de manière durable vous apporte non seulement un épanouissement professionnel, mais aussi le sentiment de faire quelque chose de positif."
+        },
+        {
+          "id": 6,
+          "heading": "Votre carrière à Oldenbourg – prêt pour le prochain pas ?",
+          "paragraph": "Si vous recherchez une opportunité de grandir professionnellement dans un environnement inspirant tout en menant une vie personnelle épanouie, alors Oldenbourg est l’endroit idéal pour vous. La ville vous offre la chance de mettre en œuvre vos talents et idées dans le secteur dynamique de l’informatique et de la technologie tout en bénéficiant de la qualité de vie d’une petite ville. Les entreprises ici apprécient les professionnels qui travaillent de manière autonome et créative et sont prêts à contribuer activement à façonner l’avenir."
+        }
+      ]
+    }
+  },
+  "Oldenburg": {
+  "oldenburg":{
+    "title": "Bonjour à Oldenburg",
+    "secondTitle": "Oldenburg est prêt pour vous",
+    "description": "Ici, vous serez vu et apprécié. Oldenburg est une ville dynamique et en mouvement. Trouvez votre équilibre entre réussite professionnelle et qualité de vie individuelle élevée : carrière, famille, logement, loisirs et culture – Oldenburg vous offre les opportunités d'une grande ville d'un côté, et de l'autre, l'avantage d'une ville plus petite qui se perd souvent dans les métropoles.",
+    "video": "https://www.youtube.com/embed/X8xTA6e-A8w?si=pYo3wqhX-WT7sLRh",
+    "button": "En savoir plus"
+  }
+},
+"Footer": {
+    "footer": {
+      "title": "Ville d'Oldenbourg c/o Développement économique Industriestraße 1c 26121 Oldenbourg Allemagne",
+      "contact": "Contact",
+      "legal": "Mentions légales",
+      "menu": "Menu Navigation",
+      "secondTitle": "IT-Netzwerk TECI_OL e.V,",
+      "copyright": "Copyright © 2024. Tous droits réservés.",
+      "legalArray": [
+        {
+          "id": 1,
+          "title": "Mentions légales",
+          "link": "/impressum"
+        },
+        {
+          "id": 2,
+          "title": "Politique de confidentialité",
+          "link": "/privacy-policy"
+        },
+        {
+          "id": 3,
+          "title": "Paramètres des cookies",
+          "link": "/cookie-settings"
+        }
+      ]
+    }
+  }
+
+}
