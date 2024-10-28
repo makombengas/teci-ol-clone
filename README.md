@@ -71,7 +71,7 @@ teci-ol-clone/
 
 ## 🔗 Credits
 
-- Original website: [TECI_OL - Stadt Oldenburg](https://teci-ol.de/)
+- Original website: [TECI_OL - Stadt Oldenburg](https://www.teciol.de/)
 - Icons from [React Icons](https://react-icons.github.io/react-icons/)
 - SVG illustrations from [SVG Repo](https://www.svgrepo.com/)
 
