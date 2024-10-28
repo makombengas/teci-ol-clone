@@ -61,7 +61,7 @@ const WePage = () => {
                             {weDescription.description}
                           </p>}
 
-                          <Link as={Link} href={item.link} target="_blank" rel="noopener noreferrer">
+                          <Link as={item.link} href={item.link} target="_blank" rel="noopener noreferrer">
                           <button className="mt-5 bg-[#f8c9c9] px-4 font-bold w-full py-2 text-[#004B8B]"  >
                             {item.button}
                           </button>
