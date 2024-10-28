@@ -8,7 +8,7 @@ import Footer from './footer/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export default async function BaseLayout({ children, locale }) {
+export default async function RootLayout({ children, locale }) {
   // Providing all messages to the client
   // side is the easiest way to get started
   const messages = await getMessages();

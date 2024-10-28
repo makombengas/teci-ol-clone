@@ -4,6 +4,7 @@ import { ReactNode } from 'react';
 import BaseLayout from '@/components/BaseLayout';
 import { routing } from '@/i18n/routing';
 import "../globals.css";
+import RootLayout from '@/components/BaseLayout';
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -28,5 +29,5 @@ export default async function LocaleLayout({ children, params }) {
   // Enable static rendering
   setRequestLocale(locale);
 
-  return <BaseLayout locale={locale}>{children}</BaseLayout>;
+  return <RootLayout locale={locale}>{children}</RootLayout>;
 }
