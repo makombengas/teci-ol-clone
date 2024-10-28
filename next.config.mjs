@@ -8,8 +8,7 @@ const nextConfig = {
     config.resolve.fallback = { fs: false }
     return config
   },
-  pageExtensions: ['jsx', 'js'],
- rootLayout: './src/components/BaseLayout',
+  pageExtensions: ['jsx', 'js']
 
 };
 
