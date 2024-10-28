@@ -9,7 +9,7 @@ const nextConfig = {
     return config
   },
   pageExtensions: ['jsx', 'js'],
-  // Spécifiez le layout racine
+
   rootLayout: './src/components/BaseLayout',
 };
 
