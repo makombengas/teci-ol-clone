@@ -28,7 +28,7 @@ const Navbar = () => {
 
                 {
                     nav.map((item) => (
-                        <Link  rel="preload" className={` hover:text-[#57B8D5]  ${isActive === item.path ? "border-b-4 border-[#F4B0AC] text-[#57B8D5]    font-extrabold md:text-[1rem]  xl:text-[1.5rem] " : "text-[#0060AB] font-extrabold md:text-[1rem]  xl:text-[1.5rem] "} `	} key={item.name} href={item.path} onClick={() => setOpenNav(!openNav)} >{item.name}</Link>
+                        <Link  rel="preload" className={` hover:text-[#57B8D5]  ${isActive === item.path ? "border-b-4 border-[#F4B0AC] text-[#57B8D5] text-[1.5rem]    font-extrabold md:text-[1rem]  xl:text-[1.5rem] " : "text-[#0060AB] font-extrabold md:text-[1rem] text-[1.5rem]   xl:text-[1.5rem] "} `	} key={item.name} href={item.path} onClick={() => setOpenNav(!openNav)} >{item.name}</Link>
                     ))
                 }
             </div>
