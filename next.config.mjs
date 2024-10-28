@@ -10,5 +10,4 @@ const nextConfig = {
   },
   pageExtensions: ['jsx', 'js'],
 };
-
 export default withNextIntl(nextConfig);
