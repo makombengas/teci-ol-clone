@@ -14,7 +14,7 @@ const Navbar = () => {
     const selectedLayoutSegment = useSelectedLayoutSegment();
     const pathname = selectedLayoutSegment ? `/${selectedLayoutSegment}` : '/';
     const isActive = pathname ;
-    console.log(isActive)
+ 
   return (
     <div className="bg-slate-100   w-full xl:px-[12rem] py-2 fixed z-50 px-4    flex justify-between  ">
 

@@ -2,12 +2,13 @@
 
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
-import React from 'react'
+import React, { Suspense } from 'react'
 const CurrentPage = () => {
     const newsArray = useTranslations('News')
     const news = newsArray.raw('news')
   return (
-    <div className='flex flex-col gap-4'>
+    <Suspense fallback={<div>Loading...</div>}>
+                         <div className='flex flex-col gap-4'>
     {news.map((item) => (
       <div key={item.id} className="pt-8 md:py-4 w-full h-full mb-4 flex-col flex justify-center items-center">
         <hr className="max-w-[90rem] md:max-w-[80rem]     xl:px-[48rem] px-8 mx-auto border-b-[1px] border-[#0060AB]" />
@@ -92,6 +93,7 @@ const CurrentPage = () => {
         ))
        }
     </div>
+    </Suspense>
   )
 }
 

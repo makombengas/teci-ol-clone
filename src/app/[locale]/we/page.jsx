@@ -15,9 +15,7 @@ const WePage = () => {
   const handleOpen = (index) => {
     const weFind = we.imagesArray.find((item) => item.id === index)
     setOpen(open => open === index ? null : index)
-    setWeDescription(weFind)
-    console.log(weFind)
-    
+    setWeDescription(weFind) 
   }
 
   return (

@@ -14,7 +14,7 @@ const CurrentComponent = () => {
     const navArray = useTranslations('Navbar')
     const nav = navArray.raw('nav') 
     const findId = nav[3].name
-console.log(findId);
+
   return (
     <Suspense fallback={<div>Loading...</div>}>
         <div  id={findId} className=" bg-[#e8f1fa]  w-full py-4 md:py-16   mx-auto ">

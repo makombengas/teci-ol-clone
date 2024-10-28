@@ -70,7 +70,7 @@ const CurrentIdPage = () => {
     setImageUrl(image);
   }, [image]);
 
-  console.log(query);
+
 
   return (
     <Suspense fallback={<div>Loading...</div>}>
