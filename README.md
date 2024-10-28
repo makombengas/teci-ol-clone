@@ -46,6 +46,8 @@ yarn dev
 
 ```
 teci-ol-clone/
+├── messages/
+├── public/
 ├── components/
 ├── pages/
 ├── public/
