@@ -9,7 +9,7 @@ const nextConfig = {
     return config
   },
   pageExtensions: ['jsx', 'js'],
-  rootLayout: './src/components/BaseLayout',
+
 };
 
 export default withNextIntl(nextConfig);
