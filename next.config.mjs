@@ -8,6 +8,6 @@ const nextConfig = {
     config.resolve.fallback = { fs: false }
     return config
   },
-  pageExtensions: ['jsx', 'js'],
+
 };
 export default withNextIntl(nextConfig);
